@@ -12,24 +12,18 @@ body {
     align-items: center;
 }
 
-audio{
-    margin-top: 10vw;
-    padding: 10px 0;
-    width: 80%; 
-    max-width: 600px; /* Limite la largeur maximale */
-    background-color: #f0f0f0;
-    border-radius: 20px; /* Rayon des coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour plus de style */
-    height: 5vw; /* Ajuste automatiquement la hauteur */
-    transform: translate(0%, 0%);
-}
-
 img{
     max-width: 100%;
 }
 
+h1{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+    font-size: 5vw;
+}
 .anivtxt{
-    height: 40vw;
+    height: 30vw;
     margin-top: 20px;
 }
 
@@ -38,12 +32,6 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-.coeur, .feux {
-    height: 20vw;
-    max-width: 45%;
-    margin: 0 10px;
 }
 
 #loading {
@@ -55,7 +43,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #3498db;
+    background-color: #91ffd3;
     z-index: 1000;
 }
 

@@ -28,8 +28,8 @@ body{
     .coeurG {
         position: absolute;
         z-index: 3;
-        height: 40vw;
-        transform: translate(-55%, 20%);
+        height: 25vw;
+        transform: translate(-60%, 63%);
     }
 
     h1{
